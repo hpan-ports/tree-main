@@ -25,9 +25,9 @@ structure of a *ports source tree*.
 Secondly,  this methodology allows for *port  updates* to be developed
 at a finer granularity than of *the entire ports tree*. Presently, if
 in order to update a single *port*, in FreeBSD, the entire *ports
-tree* must retrieved -- whether retrieved by way of Subversion, Git,
-Portsnap, Curl, or other ports tree retrieval method. With each *port*
-being maintained, instead, in a seperate *port source code*
+tree* must be retrieved -- whether retrieved by way of Subversion, Git,
+Portsnap, Curl, or another ports tree retrieval method. With each
+*port* being maintained, instead, in a seperate *port source code*
 repository, then only a single *port source code* repository would
 need to be  retrieved, if as to update the source code of a single
 *port*.
@@ -49,7 +49,7 @@ control methods onto the complete *ports tree*, any repositories that
 may be available in any format as may be mirrored in a Git repository
 -- such as with repositories implementing the Concurrent Versions
 System (CVS) or the Subversion (SVN) repository format -- these may be
-mirroed with the respective Git repository mirroring tool, then
+mirrored with the respective Git repository mirroring tool, then
 referenced within the singular *ports tree*
 
 The methodology proposed in this repository is applied onto the Git
